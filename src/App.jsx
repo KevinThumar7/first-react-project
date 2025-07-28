@@ -8,14 +8,12 @@ function App() {
   const addValue = () => { 
     if(counter >= 10) return
     counter = counter + 1
-    console.log("hey", counter)
     setCounter(counter)
   }
 
   const removeValue = () => {
     if(counter <= 0) return
     counter = counter - 1
-    console.log("hey", counter)
     setCounter(counter)
   }
 
